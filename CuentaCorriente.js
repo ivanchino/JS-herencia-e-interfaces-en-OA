@@ -9,7 +9,7 @@ export class CuentaCorriente extends Cuenta {
         CuentaCorriente.cantidadCuentas++;
     }
 
-    prueba(){
-        console.log('Método hijo');
+    retirarDeCuenta(valor) {
+        super._retirarDeCuenta(valor,5);
     }
 }
